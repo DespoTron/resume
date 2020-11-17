@@ -152,6 +152,37 @@ const IndexPage = () => (
                 <br/>
                 <b>Testing Tools:</b> Jest, Storybook, Cypress
               </p>
+              <br/>
+              <h3 className="mb-0"><a href="https://github.com/DespoTron/storyCreator">Story Creator</a></h3>
+              <p>
+                A web app that allows users to create, read and contribute to unique stories.
+                Also allows the user to upvote preferred stories. 
+                <br/>
+                <b>Front-end:</b> HTML, SASS, EJS
+                <br/>
+                <b>Back-end:</b> Node JS, Express, Postgres, JQuery
+                <br/>
+              </p>   
+              <br/>
+              <h3 className="mb-0"><a href="https://github.com/DespoTron/tinyapp">Tiny App</a></h3>
+              <p>
+                My first full stack app that allows users to shorten long URLs.
+                <br/>
+                <b>Front-end:</b> HTML, EJS, Javascript
+                <br/>
+                <b>Back-end:</b> Node JS, Express, Postgres
+                <br/>
+              </p>     
+             <br/>
+              <h3 className="mb-0"><a href="https://github.com/DespoTron/tweeter">Tweeter</a></h3>
+              <p>
+                A simple tweeter clone app that is a single page application focused on front-end learning.
+                <br/>
+                <b>Front-end:</b> HTML, CSS, Javascript, AJAX, JQuery
+                <br/>
+                <b>Back-end:</b> Node JS, Express, MongoDB
+                <br/>
+              </p>                                      
             </div>
           </div>
         </div>
