@@ -253,7 +253,7 @@ const IndexPage = () => (
                   SKUs, reporting inconsistencies for investigation
                 </li>
                 <li>
-                  Served as company's main point of contact for reolution of all IT related issues
+                  Served as company's main point of contact for resolution of all IT related issues
                 </li>
                 <li>
                   Liaised with customers and sales team to identify delivery demands well in advance to 
