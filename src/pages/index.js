@@ -15,7 +15,7 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h1 className="mb-0">
-            {config.firstName}
+            {config.firstName} {" "}
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
@@ -42,72 +42,6 @@ const IndexPage = () => (
           </div>
         </div>
       </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="experience"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Experience</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Head Purchaser</h3>
-              <div className="subheading mb-3">Sen Western Wholesale Lumber Ltd.</div>
-              <ul>
-                <li>
-                  Managed inventory of over 1000 SKUs, planning for just in time inventory to acheieve 
-                  cost and space efficiencies
-                </li>
-                <li>
-                  Negotiated and sourced special order products from various suppliers as requested to meet
-                  and exceed customer/business expectations
-                </li>
-                <li>
-                  Organized and supervised a team for year-end inventory to ensure accurate account of all 
-                  SKUs, reporting inconsistencies for investigation
-                </li>
-                <li>
-                  Served as company's main point of contact for reolution of all IT related issues
-                </li>
-                <li>
-                  Liaised with customers and sales team to identify delivery demands well in advance to 
-                  ensure timely delivery of products
-                </li>
-                <li>
-                  Mainted involvement in various  aspects of business including shipping, receiving, inside sales,
-                  forklift operations and warehousing to ensure optimal operations through peak times
-                </li>
-              </ul>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">October 2010 - July 2020</span>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <hr className="m-0" />
-
-      <section
-        className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="education"
-      >
-        <div className="w-100">
-          <h2 className="mb-5">Education</h2>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Lighthouse Labs</h3>
-              <div className="subheading mb-3">Diploma of Web Development</div>
-              <div>Web Development Bootcamp</div>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2020 - November 2020</span>
-            </div>
-          </div>
 
       <hr className="m-0" />
 
@@ -184,6 +118,112 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
+      </section>      
+
+      <hr className="m-0" />      
+
+      <section 
+        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="projects"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Projects</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0"><a href="https://github.com/DespoTron/adtime-scheduling">ADTime Scheduling</a></h3>
+              <p>
+                A Scheduler/Calendar app that allows users to create, edit, delete and
+                transfer shifts. Allowing a seemless update of employees work schedule with
+                text reminders through Twilio and Slack notifications.
+                <br/>
+                <b>Front-End:</b> React, React Router, Material UI, SASS 
+                <br/>
+                <b>Back-End:</b> Node JS, Express, Postgres
+              </p>
+              <br/>
+              <h3 className="mb-0"><a href="https://github.com/DespoTron/scheduler">Scheduler</a></h3>
+              <p>
+                A Scheduler that the user can create, edit and delete interview appointments.
+                <br/>
+                <b>Front-end:</b> HTML, CSS, React 
+                <br/>
+                <b>Back-end:</b> Node JS, Express, Postgres
+                <br/>
+                <b>Testing Tools:</b> Jest, Storybook, Cypress
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+      <hr className="m-0" />
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex align-items-center"
+        id="education"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Education</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Lighthouse Labs</h3>
+              <div className="subheading mb-3">Diploma of Web Development</div>
+              <div>Web Development Bootcamp</div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">August 2020 - November 2020</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr className="m-0" />      
+
+      <section
+        className="resume-section p-3 p-lg-5 d-flex justify-content-center"
+        id="experience"
+      >
+        <div className="w-100">
+          <h2 className="mb-5">Experience</h2>
+
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
+            <div className="resume-content">
+              <h3 className="mb-0">Head Purchaser</h3>
+              <div className="subheading mb-3">Sen Western Wholesale Lumber Ltd.</div>
+              <ul>
+                <li>
+                  Managed inventory of over 1000 SKUs, planning for just in time inventory to acheieve 
+                  cost and space efficiencies
+                </li>
+                <li>
+                  Negotiated and sourced special order products from various suppliers as requested to meet
+                  and exceed customer/business expectations
+                </li>
+                <li>
+                  Organized and supervised a team for year-end inventory to ensure accurate account of all 
+                  SKUs, reporting inconsistencies for investigation
+                </li>
+                <li>
+                  Served as company's main point of contact for reolution of all IT related issues
+                </li>
+                <li>
+                  Liaised with customers and sales team to identify delivery demands well in advance to 
+                  ensure timely delivery of products
+                </li>
+                <li>
+                  Mainted involvement in various  aspects of business including shipping, receiving, inside sales,
+                  forklift operations and warehousing to ensure optimal operations through peak times
+                </li>
+              </ul>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">October 2010 - July 2020</span>
+            </div>
+          </div>
+        </div>
       </section>
 
       <hr className="m-0" />
@@ -210,8 +250,6 @@ const IndexPage = () => (
       </section>
 
       <hr className="m-0" />
-    </div>
-    </section>
     </div>
   </Layout>
 )
