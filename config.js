@@ -20,7 +20,7 @@ module.exports = {
     {
       icon: 'fa-linkedin-in',
       name: 'Linkedin',
-      url: 'www.linkedin.com/in/hdthaido',
+      url: 'https://linkedin.com/in/hdthaido',
     },
   ],
   email: 'hdthaido@gmail.com',

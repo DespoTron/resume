@@ -53,7 +53,7 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &amp; Tools
+            Programming Languages &apm; Tools
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
@@ -69,34 +69,19 @@ const IndexPage = () => (
               Javascript
             </li>
             <li className="list-inline-item">
-              <i className="fab fa-react"></i>
-              React
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-node-js"></i>
-              NodeJS
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-sass"></i>
-              SASS
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-npm"></i>
-              NPM
-            </li>
-            <li className="list-inline-item">
               <i className="fab fa-java"></i>
               JAVA
+            </li>
+            <li className="list-inline-item">
+              {/* <img src="c.png">C++</img> */}
+              <i className="fab fa-npm"></i>
+              NPM
             </li>
           </ul>
 
           <div className="subheading mb-3">Frameworks</div>
           <ul className="fa-ul mb-0">
-            <li>
-              <i className="fa-li fa fa-check"></i>
-              React JS
-            </li>
-            <li>
+            <li className="list-inline-item">
               <i className="fa-li fa fa-check"></i>
               Node JS
             </li>
@@ -115,6 +100,36 @@ const IndexPage = () => (
             <li>
               <i className="fa-li fa fa-check"></i>
               JQuery
+            </li>
+          </ul>
+
+          <br/>
+
+          <div className="subheading mb-3">Testing</div>
+          <ul className="fa-ul mb-0">
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Storybook
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Cypress
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Mocha &amp; Chai
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Jest
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Capybara
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Rspec
             </li>
           </ul>
         </div>
@@ -259,28 +274,22 @@ const IndexPage = () => (
 
       <hr className="m-0" />
 
-      <section
+      {/* <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="interests"
       >
         <div className="w-100">
           <h2 className="mb-5">Interests</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+
           </p>
         </div>
       </section>
 
-      <hr className="m-0" />
+      <hr className="m-0" /> */}
     </div>
   </Layout>
 )

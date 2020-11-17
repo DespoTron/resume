@@ -15,7 +15,7 @@ export class Sidebar extends Component {
         { content: 'Projects', href: 'projects' },
         { content: 'Education', href: 'education' },
         { content: 'Experience', href: 'experience' },
-        { content: 'Interests', href: 'interests' },
+        // { content: 'Interests', href: 'interests' },
       ],
       isCollapsed: true,
     };
