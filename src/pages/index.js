@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Layout from '../components/Layout';
+import Layout from '../components/Layout'
 
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
@@ -54,69 +54,36 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Senior Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Bring to the table win-win survival strategies to ensure
-                proactive domination. At the end of the day, going forward, a
-                new normal that has evolved from generation X is on the runway
-                heading towards a streamlined cloud solution. User generated
-                content in real-time will have multiple touchpoints for
-                offshoring.
-              </p>
+              <h3 className="mb-0">Head Purchaser</h3>
+              <div className="subheading mb-3">Sen Western Wholesale Lumber Ltd.</div>
+              <ul>
+                <li>
+                  Managed inventory of over 1000 SKUs, planning for just in time inventory to acheieve 
+                  cost and space efficiencies
+                </li>
+                <li>
+                  Negotiated and sourced special order products from various suppliers as requested to meet
+                  and exceed customer/business expectations
+                </li>
+                <li>
+                  Organized and supervised a team for year-end inventory to ensure accurate account of all 
+                  SKUs, reporting inconsistencies for investigation
+                </li>
+                <li>
+                  Served as company's main point of contact for reolution of all IT related issues
+                </li>
+                <li>
+                  Liaised with customers and sales team to identify delivery demands well in advance to 
+                  ensure timely delivery of products
+                </li>
+                <li>
+                  Mainted involvement in various  aspects of business including shipping, receiving, inside sales,
+                  forklift operations and warehousing to ensure optimal operations through peak times
+                </li>
+              </ul>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">March 2013 - Present</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
-              <div className="subheading mb-3">Intelitec Solutions</div>
-              <p>
-                Capitalize on low hanging fruit to identify a ballpark value
-                added activity to beta test. Override the digital divide with
-                additional clickthroughs from DevOps. Nanotechnology immersion
-                along the information highway will close the loop on focusing
-                solely on the bottom line.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">December 2011 - March 2013</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
-            <div className="resume-content">
-              <h3 className="mb-0">Junior Web Designer</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Podcasting operational change management inside of workflows to
-                establish a framework. Taking seamless key performance
-                indicators offline to maximise the long tail. Keeping your eye
-                on the ball while performing a deep dive on the start-up
-                mentality to derive convergence on cross-platform integration.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">July 2010 - December 2011</span>
-            </div>
-          </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">Web Design Intern</h3>
-              <div className="subheading mb-3">Shout! Media Productions</div>
-              <p>
-                Collaboratively administrate empowered markets via plug-and-play
-                networks. Dynamically procrastinate B2C users after installed
-                base benefits. Dramatically visualize customer directed
-                convergence without revolutionary ROI.
-              </p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">September 2008 - June 2010</span>
+              <span className="text-primary">October 2010 - July 2020</span>
             </div>
           </div>
         </div>
@@ -133,28 +100,14 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">University of Colorado Boulder</h3>
-              <div className="subheading mb-3">Bachelor of Science</div>
-              <div>Computer Science - Web Development Track</div>
-              <p>GPA: 3.23</p>
+              <h3 className="mb-0">Lighthouse Labs</h3>
+              <div className="subheading mb-3">Diploma of Web Development</div>
+              <div>Web Development Bootcamp</div>
             </div>
             <div className="resume-date text-md-right">
-              <span className="text-primary">August 2006 - May 2010</span>
+              <span className="text-primary">August 2020 - November 2020</span>
             </div>
           </div>
-
-          <div className="resume-item d-flex flex-column flex-md-row justify-content-between">
-            <div className="resume-content">
-              <h3 className="mb-0">James Buchanan High School</h3>
-              <div className="subheading mb-3">Technology Magnet Program</div>
-              <p>GPA: 3.56</p>
-            </div>
-            <div className="resume-date text-md-right">
-              <span className="text-primary">August 2002 - May 2006</span>
-            </div>
-          </div>
-        </div>
-      </section>
 
       <hr className="m-0" />
 
@@ -171,59 +124,63 @@ const IndexPage = () => (
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
               <i className="fab fa-html5"></i>
+              HTML5
             </li>
             <li className="list-inline-item">
               <i className="fab fa-css3-alt"></i>
+              CSS
             </li>
             <li className="list-inline-item">
               <i className="fab fa-js-square"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-angular"></i>
+              Javascript
             </li>
             <li className="list-inline-item">
               <i className="fab fa-react"></i>
+              React
             </li>
             <li className="list-inline-item">
               <i className="fab fa-node-js"></i>
+              NodeJS
             </li>
             <li className="list-inline-item">
               <i className="fab fa-sass"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-less"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-wordpress"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-gulp"></i>
-            </li>
-            <li className="list-inline-item">
-              <i className="fab fa-grunt"></i>
+              SASS
             </li>
             <li className="list-inline-item">
               <i className="fab fa-npm"></i>
+              NPM
+            </li>
+            <li className="list-inline-item">
+              <i className="fab fa-java"></i>
+              JAVA
             </li>
           </ul>
 
-          <div className="subheading mb-3">Workflow</div>
+          <div className="subheading mb-3">Frameworks</div>
           <ul className="fa-ul mb-0">
             <li>
               <i className="fa-li fa fa-check"></i>
-              Mobile-First, Responsive Design
+              React JS
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Browser Testing &amp; Debugging
+              Node JS
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Cross Functional Teams
+              Express JS
             </li>
             <li>
               <i className="fa-li fa fa-check"></i>
-              Agile Development &amp; Scrum
+              Ruby On Rails
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              Bootstrap
+            </li>
+            <li>
+              <i className="fa-li fa fa-check"></i>
+              JQuery
             </li>
           </ul>
         </div>
