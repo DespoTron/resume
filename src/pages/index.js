@@ -1,7 +1,7 @@
 import React from 'react';
 
 import Layout from '../components/Layout'
-
+import resume from '../assets/images/resume.pdf'
 // import { Link } from 'gatsby';
 import Sidebar from '../components/Sidebar';
 import config from '../../config';
@@ -30,8 +30,8 @@ const IndexPage = () => (
             implementation. I’m excited to utilize these skills in my career as
             a developer.
           </p>
-          <p className="subheading mb-5">
-            Here's a link to a PDF version of my <a href="/images/resume.pdf">resume</a>.
+          <p className="lead mb-5">
+            Here's a link to a PDF version of my <a href={resume}>resume</a>.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
