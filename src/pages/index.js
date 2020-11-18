@@ -30,6 +30,9 @@ const IndexPage = () => (
             implementation. I’m excited to utilize these skills in my career as
             a developer.
           </p>
+          <p className="subheading mb-5">
+            Here's a link to a PDF version of my <a href="/images/resume.pdf">resume</a>.
+          </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
               const { icon, url } = social
