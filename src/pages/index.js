@@ -56,7 +56,7 @@ const IndexPage = () => (
           <h2 className="mb-5">Skills</h2>
 
           <div className="subheading mb-3">
-            Programming Languages &apm; Tools
+            Programming Languages &amp; Tools
           </div>
           <ul className="list-inline dev-icons">
             <li className="list-inline-item">
