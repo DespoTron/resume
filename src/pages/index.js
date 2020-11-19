@@ -244,7 +244,7 @@ const IndexPage = () => (
               <div className="subheading mb-3">Sen Western Wholesale Lumber Ltd.</div>
               <ul>
                 <li>
-                  Managed inventory of over 1000 SKUs, planning for just in time inventory to acheieve 
+                  Managed inventory of over 1000 SKUs, planning for just in time inventory to achieve 
                   cost and space efficiencies
                 </li>
                 <li>
@@ -263,7 +263,7 @@ const IndexPage = () => (
                   ensure timely delivery of products
                 </li>
                 <li>
-                  Mainted involvement in various  aspects of business including shipping, receiving, inside sales,
+                  Maintained involvement in various  aspects of business including shipping, receiving, inside sales,
                   forklift operations and warehousing to ensure optimal operations through peak times
                 </li>
               </ul>
