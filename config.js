@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'Thai Do Resume', // <title>
+  siteTitle: 'Hire Me', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
