@@ -154,7 +154,8 @@ const IndexPage = () => (
                 A Scheduler/Calendar app that allows users to create, edit, delete and
                 transfer shifts. Allowing a seemless update of employees work schedule with
                 text reminders through Twilio and Slack notifications.
-              <p>Here's a link to a live running application <a href="https://adtime-scheduling.herokuapp.com/">here</a></p>
+                <br />
+                Here's a link to a live running application <a href="https://adtime-scheduling.herokuapp.com/">here</a>
                 <br/>
                 <b>Front-End:</b> React, React Router, Material UI, SASS 
                 <br/>
@@ -164,7 +165,8 @@ const IndexPage = () => (
               <h3 className="mb-0"><a href="https://github.com/DespoTron/scheduler">Scheduler</a></h3>
               <p>
                 A Scheduler that the user can create, edit and delete interview appointments.
-              <p>Deployed the Client to Netlify here's the link <a href="https://wonderful-elion-f9f0c1.netlify.app/">Scheduler App</a></p>
+                <br />
+                Deployed the Client to Netlify here's the link <a href="https://wonderful-elion-f9f0c1.netlify.app/">Scheduler App</a>
                 <br/>
                 <b>Front-end:</b> HTML, CSS, React 
                 <br/>
