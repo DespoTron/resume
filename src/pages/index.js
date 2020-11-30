@@ -164,6 +164,7 @@ const IndexPage = () => (
               <h3 className="mb-0"><a href="https://github.com/DespoTron/scheduler">Scheduler</a></h3>
               <p>
                 A Scheduler that the user can create, edit and delete interview appointments.
+                Deployed the Client to Netlify here's the link <a href="https://wonderful-elion-f9f0c1.netlify.app/">Scheduler App</a>
                 <br/>
                 <b>Front-end:</b> HTML, CSS, React 
                 <br/>
@@ -176,7 +177,6 @@ const IndexPage = () => (
               <p>
                 A web app that allows users to create, read and contribute to unique stories.
                 Also allows the user to upvote preferred stories. 
-                Deployed the Client to Netlify here's the link <a href="">Scheduler App</a>
                 <br/>
                 <b>Front-end:</b> HTML, SASS, EJS
                 <br/>
