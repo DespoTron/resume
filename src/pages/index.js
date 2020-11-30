@@ -142,10 +142,10 @@ const IndexPage = () => (
 
       <section 
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
-        id="projects"
+        id="portfolio"
       >
         <div className="w-100">
-          <h2 className="mb-5">Projects</h2>
+          <h2 className="mb-5">Portfolio</h2>
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
@@ -160,6 +160,19 @@ const IndexPage = () => (
                 <b>Front-End:</b> React, React Router, Material UI, SASS 
                 <br/>
                 <b>Back-End:</b> Node JS, Express, Postgres
+              </p>
+              <br/>
+              <h3 className="mb-0"><a href="https://github.com/DespoTron/Jungle-Project">Jungle Project</a></h3>
+              <p>
+                A simple full-stack E-Commerce Web App that is built using MVC architecture design. 
+                It allows users to add new category and products, add items to cart, purchase items, and make a payment using Stripe API. 
+                The app is built using React, Ruby on Rails, ActiveRecord, PostgreSQL and tested using Capybara, Poltergeist, and Rspec. 
+                <br/>
+                <b>Front-End:</b> React
+                <br/>
+                <b>Back-End:</b> Ruby on Rails, ActiveRecord, PostgreSQL
+                <br/>
+                <b>Testing:</b> Capybara, Poltergeist, Rspec
               </p>
               <br/>
               <h3 className="mb-0"><a href="https://github.com/DespoTron/scheduler">Scheduler</a></h3>
