@@ -154,7 +154,7 @@ const IndexPage = () => (
                 A Scheduler/Calendar app that allows users to create, edit, delete and
                 transfer shifts. Allowing a seemless update of employees work schedule with
                 text reminders through Twilio and Slack notifications.
-                Here's a link to a live running application<a href="https://adtime-scheduling.herokuapp.com/">here</a>
+                Here's a link to a live running application <a href="https://adtime-scheduling.herokuapp.com/">here</a>
                 <br/>
                 <b>Front-End:</b> React, React Router, Material UI, SASS 
                 <br/>
@@ -176,6 +176,7 @@ const IndexPage = () => (
               <p>
                 A web app that allows users to create, read and contribute to unique stories.
                 Also allows the user to upvote preferred stories. 
+                Deployed the Client to Netlify here's the link <a href="">Scheduler App</a>
                 <br/>
                 <b>Front-end:</b> HTML, SASS, EJS
                 <br/>
