@@ -163,6 +163,7 @@ const IndexPage = () => (
               <h3 className="mb-0"><a href="https://github.com/DespoTron/scheduler">Scheduler</a></h3>
               <p>
                 A Scheduler that the user can create, edit and delete interview appointments.
+                Here's a link to a live running application<a href="https://adtime-scheduling.herokuapp.com/">here</a>
                 <br/>
                 <b>Front-end:</b> HTML, CSS, React 
                 <br/>
