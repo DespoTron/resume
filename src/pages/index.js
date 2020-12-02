@@ -162,6 +162,16 @@ const IndexPage = () => (
                 <b>Back-End:</b> Node JS, Express, Postgres
               </p>
               <br/>
+              <h3 className="mb-0"><a href="https://github.com/DespoTron/trading-app">Simple RobinHood Clone</a></h3>
+              <p>
+                A simple RobinHood Clone, it's a investing application that allows the user to purchase stocks in publicly traded
+                companies. 
+                <br />
+                <b>Front-End:</b> React, CSS
+                <br />
+                <b>Back-End:</b> FireBase
+              </p>
+              <br />
               <h3 className="mb-0"><a href="https://github.com/DespoTron/Jungle-Project">Jungle Project</a></h3>
               <p>
                 A simple full-stack E-Commerce Web App that is built using MVC architecture design. 
