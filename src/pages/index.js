@@ -284,8 +284,9 @@ const IndexPage = () => (
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2020 - November 2020</span>
             </div>
+          </div>
 
-            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"></div>
+          <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">British Columbia Institute of Technology</h3>
               <div className="subheading mb-3">In Progress</div>
@@ -312,7 +313,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Head Purchaser</h3>
+              <h3 className="mb-0">Purchaser</h3>
               <div className="subheading mb-3">
                 Sen Western Wholesale Lumber Ltd.
               </div>
