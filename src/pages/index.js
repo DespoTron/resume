@@ -284,6 +284,8 @@ const IndexPage = () => (
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2020 - November 2020</span>
             </div>
+
+            <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5"></div>
             <div className="resume-content">
               <h3 className="mb-0">British Columbia Institute of Technology</h3>
               <div className="subheading mb-3">In Progress</div>
