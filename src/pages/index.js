@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react"
 
-import Layout from '../components/Layout'
-import resume from '../assets/images/resume.pdf'
+import Layout from "../components/Layout"
+import resume from "../assets/images/resume.pdf"
 // import { Link } from 'gatsby';
-import Sidebar from '../components/Sidebar';
-import config from '../../config';
+import Sidebar from "../components/Sidebar"
+import config from "../../config"
 const IndexPage = () => (
   <Layout>
     <Sidebar />
@@ -15,7 +15,7 @@ const IndexPage = () => (
       >
         <div className="w-100">
           <h1 className="mb-0">
-            {config.firstName} {" "}
+            {config.firstName}{" "}
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
@@ -106,7 +106,7 @@ const IndexPage = () => (
             </li>
           </ul>
 
-          <br/>
+          <br />
 
           <div className="subheading mb-3">Testing</div>
           <ul className="fa-ul mb-0">
@@ -136,11 +136,11 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-      </section>      
+      </section>
 
-      <hr className="m-0" />      
+      <hr className="m-0" />
 
-      <section 
+      <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
         id="portfolio"
       >
@@ -149,89 +149,121 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0"><a href="https://github.com/DespoTron/adtime-scheduling">ADTime Scheduling</a></h3>
+              <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/adtime-scheduling">
+                  ADTime Scheduling
+                </a>
+              </h3>
               <p>
-                A Scheduler/Calendar app that allows users to create, edit, delete and
-                transfer shifts. Allowing a seemless update of employees work schedule with
-                text reminders through Twilio and Slack notifications.
+                A Scheduler/Calendar app that allows users to create, edit,
+                delete and transfer shifts. Allowing a seemless update of
+                employees work schedule with text reminders through Twilio and
+                Slack notifications.
                 <br />
-                Here's a link to a live running application <a href="https://adtime-scheduling.herokuapp.com/">here</a>
-                <br/>
-                <b>Front-End:</b> React, React Router, Material UI, SASS 
-                <br/>
+                Here's a link to a live running application{" "}
+                <a href="https://adtime-scheduling.herokuapp.com/">here</a>
+                <br />
+                <b>Front-End:</b> React, React Router, Material UI, SASS
+                <br />
                 <b>Back-End:</b> Node JS, Express, Postgres
               </p>
-              <br/>
-              <h3 className="mb-0"><a href="https://github.com/DespoTron/trading-app">Simple RobinHood Clone</a></h3>
+              <br />
+              <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/trading-app">
+                  Simple RobinHood Clone
+                </a>
+              </h3>
               <p>
-                A simple RobinHood Clone, it's a investing application that allows the user to purchase stocks in publicly traded
-                companies. 
+                A simple RobinHood Clone, it's a investing application that
+                allows the user to purchase stocks in publicly traded companies.
                 <br />
                 <b>Front-End:</b> React, CSS
                 <br />
                 <b>Back-End:</b> FireBase
               </p>
               <br />
-              <h3 className="mb-0"><a href="https://github.com/DespoTron/Jungle-Project">Jungle Project</a></h3>
+              <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/Jungle-Project">
+                  Jungle Project
+                </a>
+              </h3>
               <p>
-                A simple full-stack E-Commerce Web App that is built using MVC architecture design. 
-                It allows users to add new category and products, add items to cart, purchase items, and make a payment using Stripe API. 
-                The app is built using React, Ruby on Rails, ActiveRecord, PostgreSQL and tested using Capybara, Poltergeist, and Rspec. 
-                <br/>
+                A simple full-stack E-Commerce Web App that is built using MVC
+                architecture design. It allows users to add new category and
+                products, add items to cart, purchase items, and make a payment
+                using Stripe API. The app is built using React, Ruby on Rails,
+                ActiveRecord, PostgreSQL and tested using Capybara, Poltergeist,
+                and Rspec.
+                <br />
                 <b>Front-End:</b> React
-                <br/>
+                <br />
                 <b>Back-End:</b> Ruby on Rails, ActiveRecord, PostgreSQL
-                <br/>
+                <br />
                 <b>Testing:</b> Capybara, Poltergeist, Rspec
               </p>
-              <br/>
-              <h3 className="mb-0"><a href="https://github.com/DespoTron/scheduler">Scheduler</a></h3>
+              <br />
+              <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/scheduler">Scheduler</a>
+              </h3>
               <p>
-                A Scheduler that the user can create, edit and delete interview appointments.
+                A Scheduler that the user can create, edit and delete interview
+                appointments.
                 <br />
-                Deployed the Client to Netlify here's the link <a href="https://wonderful-elion-f9f0c1.netlify.app/">Scheduler App</a>
-                <br/>
-                <b>Front-end:</b> HTML, CSS, React 
-                <br/>
+                Deployed the Client to Netlify here's the link{" "}
+                <a href="https://wonderful-elion-f9f0c1.netlify.app/">
+                  Scheduler App
+                </a>
+                <br />
+                <b>Front-end:</b> HTML, CSS, React
+                <br />
                 <b>Back-end:</b> Node JS, Express, Postgres
-                <br/>
+                <br />
                 <b>Testing Tools:</b> Jest, Storybook, Cypress
               </p>
-              <br/>
-              <h3 className="mb-0"><a href="https://github.com/DespoTron/storyCreator">Story Creator</a></h3>
+              <br />
+              <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/storyCreator">
+                  Story Creator
+                </a>
+              </h3>
               <p>
-                A web app that allows users to create, read and contribute to unique stories.
-                Also allows the user to upvote preferred stories. 
-                <br/>
+                A web app that allows users to create, read and contribute to
+                unique stories. Also allows the user to upvote preferred
+                stories.
+                <br />
                 <b>Front-end:</b> HTML, SASS, EJS
-                <br/>
+                <br />
                 <b>Back-end:</b> Node JS, Express, Postgres, JQuery
-                <br/>
-              </p>   
-              <br/>
-              <h3 className="mb-0"><a href="https://github.com/DespoTron/tinyapp">Tiny App</a></h3>
+                <br />
+              </p>
+              <br />
+              <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/tinyapp">Tiny App</a>
+              </h3>
               <p>
                 My first full stack app that allows users to shorten long URLs.
-                <br/>
+                <br />
                 <b>Front-end:</b> HTML, EJS, Javascript
-                <br/>
+                <br />
                 <b>Back-end:</b> Node JS, Express, Postgres
-                <br/>
-              </p>     
-             <br/>
-              <h3 className="mb-0"><a href="https://github.com/DespoTron/tweeter">Tweeter</a></h3>
+                <br />
+              </p>
+              <br />
+              <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/tweeter">Tweeter</a>
+              </h3>
               <p>
-                A simple tweeter clone app that is a single page application focused on front-end learning.
-                <br/>
+                A simple tweeter clone app that is a single page application
+                focused on front-end learning.
+                <br />
                 <b>Front-end:</b> HTML, CSS, Javascript, AJAX, JQuery
-                <br/>
+                <br />
                 <b>Back-end:</b> Node JS, Express, MongoDB
-                <br/>
-              </p>                                      
+                <br />
+              </p>
             </div>
           </div>
         </div>
-
       </section>
 
       <hr className="m-0" />
@@ -252,11 +284,22 @@ const IndexPage = () => (
             <div className="resume-date text-md-right">
               <span className="text-primary">August 2020 - November 2020</span>
             </div>
+            <div className="resume-content">
+              <h3 className="mb-0">British Columbia Institute of Technology</h3>
+              <div className="subheading mb-3">In Progress</div>
+              <div>
+                ACIS (Applied Computer Information Systems) & ASD (Applied
+                Software Development)
+              </div>
+            </div>
+            <div className="resume-date text-md-right">
+              <span className="text-primary">January 2018 - Ongoing</span>
+            </div>
           </div>
         </div>
       </section>
 
-      <hr className="m-0" />      
+      <hr className="m-0" />
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
@@ -268,30 +311,37 @@ const IndexPage = () => (
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
               <h3 className="mb-0">Head Purchaser</h3>
-              <div className="subheading mb-3">Sen Western Wholesale Lumber Ltd.</div>
+              <div className="subheading mb-3">
+                Sen Western Wholesale Lumber Ltd.
+              </div>
               <ul>
                 <li>
-                  Managed inventory of over 1000 SKUs, planning for just in time inventory to achieve 
-                  cost and space efficiencies
+                  Managed inventory of over 1000 SKUs, planning for just in time
+                  inventory to achieve cost and space efficiencies
                 </li>
                 <li>
-                  Negotiated and sourced special order products from various suppliers as requested to meet
-                  and exceed customer/business expectations
+                  Negotiated and sourced special order products from various
+                  suppliers as requested to meet and exceed customer/business
+                  expectations
                 </li>
                 <li>
-                  Organized and supervised a team for year-end inventory to ensure accurate account of all 
-                  SKUs, reporting inconsistencies for investigation
+                  Organized and supervised a team for year-end inventory to
+                  ensure accurate account of all SKUs, reporting inconsistencies
+                  for investigation
                 </li>
                 <li>
-                  Served as company's main point of contact for resolution of all IT related issues
+                  Served as company's main point of contact for resolution of
+                  all IT related issues
                 </li>
                 <li>
-                  Liaised with customers and sales team to identify delivery demands well in advance to 
-                  ensure timely delivery of products
+                  Liaised with customers and sales team to identify delivery
+                  demands well in advance to ensure timely delivery of products
                 </li>
                 <li>
-                  Maintained involvement in various  aspects of business including shipping, receiving, inside sales,
-                  forklift operations and warehousing to ensure optimal operations through peak times
+                  Maintained involvement in various aspects of business
+                  including shipping, receiving, inside sales, forklift
+                  operations and warehousing to ensure optimal operations
+                  through peak times
                 </li>
               </ul>
             </div>
@@ -324,4 +374,4 @@ const IndexPage = () => (
   </Layout>
 )
 
-export default IndexPage;
+export default IndexPage

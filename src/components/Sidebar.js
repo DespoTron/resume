@@ -1,35 +1,35 @@
-import React, { Component } from 'react';
-import Scrollspy from 'react-scrollspy';
-import Scroll from './Scroll';
+import React, { Component } from "react"
+import Scrollspy from "react-scrollspy"
+import Scroll from "./Scroll"
 
-import avatar from '../assets/images/avatar.png';
-import config from '../../config';
+import avatar from "../assets/images/avatar.png"
+import config from "../../config"
 
 export class Sidebar extends Component {
   constructor(props) {
-    super(props);
+    super(props)
     this.state = {
       tabs: [
-        { content: 'About', href: 'about' },
-        { content: 'Skills', href: 'skills' },
-        { content: 'Portfolio', href: 'portfolio' },
-        { content: 'Education', href: 'education' },
-        { content: 'Experience', href: 'experience' },
+        { content: "About", href: "about" },
+        { content: "Skills", href: "skills" },
+        { content: "Portfolio", href: "portfolio" },
+        { content: "Education", href: "education" },
+        { content: "Experience", href: "experience" },
         // { content: 'Interests', href: 'interests' },
       ],
       isCollapsed: true,
-    };
-    this.toggleNavbar = this.toggleNavbar.bind(this);
+    }
+    this.toggleNavbar = this.toggleNavbar.bind(this)
   }
 
   toggleNavbar() {
     this.setState({
       isCollapsed: !this.state.isCollapsed,
-    });
+    })
   }
 
   render() {
-    const { tabs, isCollapsed } = this.state;
+    const { tabs, isCollapsed } = this.state
     return (
       <nav
         className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top"
@@ -49,8 +49,8 @@ export class Sidebar extends Component {
         </a>
         <button
           className={`navbar-toggler navbar-toggler-right ${
-            isCollapsed ? 'collapsed' : ''
-            }`}
+            isCollapsed ? "collapsed" : ""
+          }`}
           type="button"
           data-toggle="collapse"
           aria-controls="navbarSupportedContent"
@@ -60,8 +60,10 @@ export class Sidebar extends Component {
         >
           <span className="navbar-toggler-icon"></span>
         </button>
-        <div className={`collapse navbar-collapse ${isCollapsed ? '' : 'show'}`}
-          id="navbarSupportedContent">
+        <div
+          className={`collapse navbar-collapse ${isCollapsed ? "" : "show"}`}
+          id="navbarSupportedContent"
+        >
           <Scrollspy
             items={tabs.map(s => s.href)}
             currentClassName="active"
@@ -69,7 +71,7 @@ export class Sidebar extends Component {
             className="navbar-nav"
           >
             {tabs.map((tab, i) => {
-              const { href, content } = tab;
+              const { href, content } = tab
               return (
                 <li className="nav-item" key={href}>
                   <Scroll type="id" element={href}>
@@ -78,13 +80,13 @@ export class Sidebar extends Component {
                     </a>
                   </Scroll>
                 </li>
-              );
+              )
             })}
           </Scrollspy>
         </div>
       </nav>
-    );
+    )
   }
 }
 
-export default Sidebar;
+export default Sidebar
