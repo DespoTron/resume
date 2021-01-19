@@ -27,8 +27,8 @@ const IndexPage = () => (
             manager in the retail lumber industry. Optimizing and streamlining
             operations to achieve high levels of efficiency and effective
             resource allocation share many parallels to software design and
-            implementation. I’m excited to utilize these skills in my career as
-            a developer.
+            implementation. I’m excited to utilize these skills for an
+            opportunity to take the next step in my career.
           </p>
           <p className="lead mb-5">
             Here's a link to a PDF version of my <a href={resume}>resume</a>.
