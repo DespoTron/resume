@@ -169,6 +169,22 @@ const IndexPage = () => (
               </p>
               <br />
               <h3 className="mb-0">
+                <a href="https://github.com/DespoTron/spotify-clone">
+                  Spotify Clone App
+                </a>
+              </h3>
+              <p>
+                A Spotify clone built using React JS using spotify web api
+                <br />
+                Here's a link to a live runnning application deployed on heroku{" "}
+                <a href="https://spotify-clone-application.herokuapp.com/">
+                  here
+                </a>
+                <br />
+                <b>Front-End:</b> React, CSS, Material UI
+              </p>
+              <br />
+              <h3 className="mb-0">
                 <a href="https://github.com/DespoTron/trading-app">
                   Simple RobinHood Clone
                 </a>
