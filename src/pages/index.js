@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import resume from "../assets/images/resume.pdf"
+import resume from "../assets/images/resumev2.pdf"
 // import { Link } from 'gatsby';
 import Sidebar from "../components/Sidebar"
 import config from "../../config"
