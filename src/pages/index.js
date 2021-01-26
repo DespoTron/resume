@@ -31,13 +31,22 @@ const IndexPage = () => (
             opportunity to take the next step in my career.
           </p>
           <p className="lead mb-5">
-            Here's a link to a PDF version of my <a href={resume}>resume</a>.
+            Here's a link to a PDF version of my{" "}
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              resume
+            </a>
+            .
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
               const { icon, url } = social
               return (
-                <a key={url} href={url}>
+                <a
+                  key={url}
+                  href={url}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <i className={`fab ${icon}`}></i>
                 </a>
               )
