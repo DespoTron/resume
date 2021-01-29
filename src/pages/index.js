@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/Layout"
-import resume from "../assets/images/resumev2.pdf"
+import resume from "../assets/images/resumev4.pdf"
 // import { Link } from 'gatsby';
 import Sidebar from "../components/Sidebar"
 import config from "../../config"
@@ -23,7 +23,7 @@ const IndexPage = () => (
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            Full Stack web developer with 9+ years of experience as a purchasing
+            Full Stack web developer with years of experience as a purchasing
             manager in the retail lumber industry. Optimizing and streamlining
             operations to achieve high levels of efficiency and effective
             resource allocation share many parallels to software design and
@@ -177,6 +177,29 @@ const IndexPage = () => (
                 <b>Back-End:</b> Node JS, Express, Postgres
               </p>
               <br />
+              <br>
+                <h3 className="mb-0">
+                  <a href="https://github.com/DespoTron/react-todo">
+                    Pure React Todo App
+                  </a>
+                  <a href="https://github.com/DespoTron/todoapp-frontend">
+                    PERN Stack Todo App
+                  </a>
+                </h3>
+                <p>
+                  I built two different todo apps first one using purely React
+                  JS, while the second one was built with Postgres, Express JS,
+                  React JS, and Node JS.
+                  <br />
+                  Here's a link to a live runnning application deployed on
+                  heroku for the pure React JS{" "}
+                  <a href="https://reactjs-todoap.herokuapp.com/">here</a>
+                  <br />
+                  <b>Front-End:</b> React, CSS, Bootstrap 4
+                  <br />
+                  <b>Back-End:</b> Postgres, Express JS, Node JS
+                </p>
+              </br>
               <h3 className="mb-0">
                 <a href="https://github.com/DespoTron/spotify-clone">
                   Spotify Clone App
