@@ -178,9 +178,8 @@ const IndexPage = () => (
               </p>
               <br />
               <h3 className="mb-0">
-                <a href="https://github.com/DespoTron/react-todo">
-                  Pure React Todo App
-                </a>
+                <a href="https://github.com/DespoTron/react-todo">React JS</a>
+                {" OR "}
                 <a href="https://github.com/DespoTron/todoapp-frontend">
                   PERN Stack Todo App
                 </a>
